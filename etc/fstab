@@ -1,0 +1,11 @@
+/dev/nvme0n1p1    /boot                   vfat  rw,relatime,lazytime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro  0 2
+/dev/nvme0n1p3    /home                   ext4  rw,relatime,lazytime,noauto,x-systemd.automount                0 1
+/dev/root/zero    /zero                   ext4  rw,relatime,lazytime,noauto,x-systemd.automount                0 1
+/dev/root/one     /one                    ext4  rw,relatime,lazytime,noauto,x-systemd.automount                0 1
+/dev/root/qemu    /mnt/qemu               xfs   rw,relatime,lazytime,noauto,x-systemd.automount                0 1
+/zero/docker      /var/lib/docker         none  bind,noauto,x-systemd.automount                                0 0
+tmpfs             /tmp                    tmpfs nodev,nosuid,size=9G                                           0 0
+tmpfs             /var/tmp                tmpfs defaults                                                       0 0
+tmpfs             /var/cache/pacman       tmpfs defaults                                                       0 0
+tmpfs             /var/cache/pkgfile      tmpfs defaults                                                       0 0
+tmpfs             /var/cache/davfs2       tmpfs defaults                                                       0 0
