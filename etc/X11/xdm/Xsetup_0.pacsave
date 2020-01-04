@@ -1,3 +1,0 @@
-#!/bin/sh
-compton -b --config ~neg/.config/compton/compton.conf
-sh ~neg/bin/scripts/wall_set.sh&

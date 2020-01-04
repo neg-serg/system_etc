@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit WINDOWS_10_v1703_CU_15063.0.RS2_RUSSIAN_VLSC
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>WINDOWS_10_v1703_CU_15063.0.RS2_RUSSIAN_VLSC</name>
+  <uuid>bf45ee1d-34af-4ea1-9746-642cf376fe2b</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/neg/torrent/data/WINDOWS_10_v1703_CU_15063.0.RS2_RUSSIAN_VLSC</path>
+  </target>
+</pool>

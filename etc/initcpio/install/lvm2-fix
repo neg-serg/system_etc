@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+build() {
+    add_file "/etc/initcpio/files/lvm2-lvmetad-service-override.conf" "/etc/systemd/system/lvm2-lvmetad.service.d/override.conf"
+}
+
+help() {
+  cat <<HELPEOF
+This hook fixes pvscan hanging during by making lvm2-lvmetad.service run after
+systemd-udevd.service
+HELPEOF
+}
+
+# vim: set ft=sh ts=4 sw=4 et:

@@ -1,0 +1,7 @@
+~neg/tmp/log/hdd.csv {
+    rotate 5
+    hourly
+    compress
+    missingok
+    notifyempty
+}

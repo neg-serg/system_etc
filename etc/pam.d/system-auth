@@ -1,8 +1,4 @@
 #%PAM-1.0
-
-#auth      required  pam_unix.so     try_first_pass nullok
-#auth      sufficient      pam_usb.so
-auth      required        pam_unix.so nullok_secure
 auth      optional        pam_permit.so
 auth      required        pam_env.so
                          

@@ -1,0 +1,6 @@
+<network>
+	<name>pppbr</name>
+	<forward mode="bridge">
+		<interface dev="ppp0"/>
+	</forward>
+</network>

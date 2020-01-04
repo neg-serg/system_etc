@@ -1,0 +1,12 @@
+# Created by installer
+PATH="/usr/bin:/home/neg/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/opt/go/bin:/home/neg/.cargo/bin:/home/neg/.gem/ruby/2.6.0/bin:/usr/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+CFLAGS="-O2"
+NETDATA_PREFIX=""
+NETDATA_CONFIGURE_OPTIONS=""
+NETDATA_ADDED_TO_GROUPS=" docker nginx adm proxy ceph nobody"
+INSTALL_UID="0"
+NETDATA_GROUP="netdata"
+REINSTALL_COMMAND="./netdata-installer.sh --auto-update "
+RELEASE_CHANNEL="nightly"
+IS_NETDATA_STATIC_BINARY="no"
+NETDATA_LIB_DIR="/var/lib/netdata"

@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit vm
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>vm</name>
+  <uuid>4d0ab4a8-8e9e-42be-b177-df1d3852b89d</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/home/neg/1st_level/vm</path>
+  </target>
+</pool>

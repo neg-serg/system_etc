@@ -1,0 +1,13 @@
+service ircd
+{
+    disable         = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = bitlbee
+    bind        = 127.0.0.1
+    server      = /usr/sbin/bitlbee
+    type        = UNLISTED
+    port        = 6667
+    log_on_failure  += USERID
+}

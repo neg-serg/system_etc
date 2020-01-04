@@ -1,0 +1,20 @@
+[connection]
+id=Ethernet connection 1
+uuid=91751f68-89d1-44dc-8522-ea7bf009ee19
+type=ethernet
+interface-name=enp6s0
+permissions=
+
+[ethernet]
+mac-address=10:C3:7B:96:22:EF
+mac-address-blacklist=
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+ip6-privacy=0
+method=auto

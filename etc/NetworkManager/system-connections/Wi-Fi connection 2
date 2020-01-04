@@ -1,0 +1,24 @@
+[connection]
+id=Wi-Fi connection 2
+uuid=1456fca6-9401-4e1f-b680-ca3ed5dcd098
+type=wifi
+interface-name=wlp10s0u1
+permissions=
+timestamp=1496176717
+
+[wifi]
+mac-address=9C:5C:8E:AE:8E:CB
+mac-address-blacklist=
+mode=ap
+seen-bssids=9C:5C:8E:AE:8E:CB;
+ssid=Nid
+
+[ipv4]
+dns-search=
+method=shared
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+ip6-privacy=0
+method=shared

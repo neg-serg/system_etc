@@ -1,0 +1,24 @@
+[connection]
+id=Wi-Fi connection 3
+uuid=2a17d3e3-1a4d-4e86-806a-b1779e249426
+type=wifi
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=ap
+ssid=Turbo
+
+[wifi-security]
+key-mgmt=wpa-psk
+psk=joske108
+
+[ipv4]
+dns-search=
+method=shared
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+ip6-privacy=0
+method=shared

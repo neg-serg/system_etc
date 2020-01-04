@@ -1,0 +1,3 @@
+proxyPort = 8118
+socksParentProxy = "localhost:9050"
+socksProxyType = socks5

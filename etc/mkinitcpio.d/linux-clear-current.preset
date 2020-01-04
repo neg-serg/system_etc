@@ -1,0 +1,14 @@
+# mkinitcpio preset file for the 'linux-clear-current' package
+
+ALL_config="/etc/mkinitcpio.conf"
+ALL_kver="/boot/vmlinuz-linux-clear-current"
+
+PRESETS=('default' 'fallback')
+
+#default_config="/etc/mkinitcpio.conf"
+default_image="/boot/initramfs-linux-clear-current.img"
+#default_options=""
+
+#fallback_config="/etc/mkinitcpio.conf"
+fallback_image="/boot/initramfs-linux-clear-current-fallback.img"
+fallback_options="-S autodetect"

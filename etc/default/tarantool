@@ -20,6 +20,7 @@ default_cfg = {
     vinyl_dir  = "/var/lib/tarantool", -- /var/lib/tarantool/${INSTANCE}
     log        = "/var/log/tarantool", -- /var/log/tarantool/${INSTANCE}.log
     username   = "tarantool",
+    language   = "lua",
 }
 
 -- instances.available - all available instances

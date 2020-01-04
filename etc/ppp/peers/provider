@@ -1,0 +1,9 @@
+plugin rp-pppoe.so
+# network interface
+enp7s0
+# login name
+name "k7wNXe9"
+persist
+defaultroute
+hide-password
+noauth

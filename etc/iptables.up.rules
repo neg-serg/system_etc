@@ -1,0 +1,8 @@
+# *filter
+#:INPUT ACCEPT [0:0]
+#:FORWARD ACCEPT [0:0]
+#:OUTPUT DROP [0:0]
+#-A OUTPUT -d 127.0.0.1/32 -j ACCEPT
+#-A OUTPUT -m owner --uid-owner debian-tor -j ACCEPT
+#-A OUTPUT -m owner --uid-owner i2psvc -j ACCEPT
+#COMMIT
